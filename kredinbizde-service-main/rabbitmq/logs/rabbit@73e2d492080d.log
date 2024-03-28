@@ -164,3 +164,6 @@
 2024-03-28 19:41:14.473783+00:00 [warning] <0.820.0> To test RabbitMQ as if the feature was removed, set this in your configuration:
 2024-03-28 19:41:14.473783+00:00 [warning] <0.820.0>     "deprecated_features.permit.transient_nonexcl_queues = false"
 2024-03-28 19:47:38.534100+00:00 [info] <0.810.0> closing AMQP connection <0.810.0> (192.168.65.1:52338 -> 172.19.0.2:5672 - rabbitConnectionFactory#29861697:0, vhost: '/', user: 'admin')
+2024-03-28 19:54:23.977045+00:00 [info] <0.878.0> accepting AMQP connection <0.878.0> (192.168.65.1:53129 -> 172.19.0.2:5672)
+2024-03-28 19:54:24.006742+00:00 [info] <0.878.0> connection <0.878.0> (192.168.65.1:53129 -> 172.19.0.2:5672) has a client-provided name: rabbitConnectionFactory#127df165:0
+2024-03-28 19:54:24.019005+00:00 [info] <0.878.0> connection <0.878.0> (192.168.65.1:53129 -> 172.19.0.2:5672 - rabbitConnectionFactory#127df165:0): user 'admin' authenticated and granted access to vhost '/'
