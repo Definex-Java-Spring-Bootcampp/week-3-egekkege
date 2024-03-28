@@ -2,8 +2,13 @@
 # 3.Hafta Ödevi
 
 1. Aşağıdaki kavramları örneklerle açıklayın. `(10 PUAN)`  
-• Unit test  
-• Integration test
+• Unit test: Yazılımların küçük parçalarına Unit denir. Unitler olabildiğince az ve net fonksiyonlara sahiptirler. Unit test ise ilgili parçanın geliştiricisi tarafından, geliştirme aşamasındayken, istenen fonksiyonu yerine sağlayıp sağlamadığının test edilmesidir.   
+
+    Örneğin bir çalışan yönetimi uygulamasında, çalışan kaydetme fonksiyonunu ele alırsak. Bu fonksiyon, bir çalışanın bilgilerini (ad, soyad, yaş, meslek vb.) alıp veritabanında doğru tabloya eklemeli. Fonksiyonun her seferinde doğru bilgileri, doğru kişiye ve doğru tabloya ekleyip eklemediği kontrol edilir. Hatalı veri girişi yapıldığında (örneğin meslek yerine sayıyla yaş girildiğinde) beklendiği şekilde hata mesajı vermesi de testin bir parçası olabilir.
+
+    • Integration test: Çok sayıda unit bir araya gelip programın tamamını ya da bir bölümünü oluşturduğunda, programın istenen senaryoyu gerçekleştirip gerçekleştirmediği test edilir. Bu test genellikle, geliştirme aşamasından sonra ve kodu geliştirmeyen kişilerce yapılır. 
+
+    Örneğin çalışanın kayıt edilmesi, çalışana sorumlu olduğu müşterilerin eklenmesi ve o müşterilere satış yapılması, çalışanın terfi alması gibi senaryolar integration test kapsamında yapılır. Her aşamanın sorunsuz ve beklendiği şekilde çalıştığı teyit edilir.
 
 2. Aşağıdaki özellikleri **kredinbizde** uygulamasına ekleyin. `(40 PUAN)`  
 • Kredinbizde uygulaması için Garanti bankası için client oluşturun.  
