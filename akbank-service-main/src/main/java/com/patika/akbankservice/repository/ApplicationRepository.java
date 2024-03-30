@@ -18,4 +18,5 @@ public class ApplicationRepository {
     public List<Application> getAll() {
         return applicationList;
     }
+
 }

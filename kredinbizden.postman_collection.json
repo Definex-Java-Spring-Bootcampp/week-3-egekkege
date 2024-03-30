@@ -63,6 +63,62 @@
 			]
 		},
 		{
+			"name": "garanti-service",
+			"item": [
+				{
+					"name": "create applicaton",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"userId\":2\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8085/api/garanti/v1/applications",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"api",
+								"garanti",
+								"v1",
+								"applications"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get garanti applications",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8085/api/garanti/v1/applications",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"api",
+								"garanti",
+								"v1",
+								"applications"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "kredinbizde-service",
 			"item": [
 				{
@@ -207,13 +263,13 @@
 					"response": []
 				},
 				{
-					"name": "save application",
+					"name": "save application akbank",
 					"request": {
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"email\": \"cem2@gmail.com\"\n}",
+							"raw": "{\n    \"email\": \"cem2@gmail.com\",\n    \"bankName\": \"akbank\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -241,7 +297,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"email\": \"cem2@gmail.com\"\n}",
+							"raw": "{\n    \"email\": \"cem2@gmail.com\",\n    \"bankName\": \"garanti\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -249,15 +305,14 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:8080/api/applications/garanti",
+							"raw": "localhost:8080/api/applications",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
 								"api",
-								"applications",
-								"garanti"
+								"applications"
 							]
 						}
 					},

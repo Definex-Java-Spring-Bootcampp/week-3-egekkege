@@ -36,4 +36,7 @@ public class ApplicationService {
 
         return applicationConverter.toResponseList(applications);
     }
+
+  
+
 }
