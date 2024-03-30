@@ -13,6 +13,7 @@
 2. Aşağıdaki özellikleri **kredinbizde** uygulamasına ekleyin. `(40 PUAN)`  
 • Kredinbizde uygulaması için Garanti bankası için client oluşturun.  
 • Kullanıcı Garanti bankası için kredi başvurusu yapabilmelidir.  (Bu dizinde bulunan postman collection ile fonksiyon test edilebilir)
+
 • Kullanıcı yapmış olduğu bütün başvuruları görüntüleyebilmelidir.  
 • NotificationService için EMAIL,SMS,MOBILE_NOTIFICATION işlemlerini strateji pattern kullanarak implemantasyonu gerçekleştirin.  
 
