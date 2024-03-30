@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.patika</groupId>
-    <artifactId>garanti-service</artifactId>
+    <artifactId>garanti-service-main</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>garanti-service</name>
     <description>garanti-service</description>

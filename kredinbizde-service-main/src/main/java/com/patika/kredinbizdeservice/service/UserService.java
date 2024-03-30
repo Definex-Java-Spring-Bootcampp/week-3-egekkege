@@ -62,11 +62,11 @@ public class UserService {
 
         // throw new NullPointerException();
 
-         throw new IllegalArgumentException("exception fırlatıldı");
+        //throw new IllegalArgumentException("exception fırlatıldı");
 
         // throw new ArithmeticException();
 
-       // return user;
+        return user;
 
     }
 
