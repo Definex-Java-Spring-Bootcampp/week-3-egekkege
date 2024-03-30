@@ -15,7 +15,7 @@
 • Kullanıcı Garanti bankası için kredi başvurusu yapabilmelidir.  (Bu dizinde bulunan postman collection ile fonksiyon test edilebilir)
 
 • Kullanıcı yapmış olduğu bütün başvuruları görüntüleyebilmelidir.  
-• NotificationService için EMAIL,SMS,MOBILE_NOTIFICATION işlemlerini strateji pattern kullanarak implemantasyonu gerçekleştirin.  
+• NotificationService için EMAIL,SMS,MOBILE_NOTIFICATION işlemlerini strateji pattern kullanarak implemantasyonu gerçekleştirin.(Notification-service loglarında bildirim gönderildiğini test ettim)  
 
 3. Docker ile Kafka kurulumu gerçekleştirin ve exception alındığı durumlarda Kafka ile bütün loglar toplanmalı ve MongoDB üzerinde kaydedilmelidir. `(20 PUAN)`
 
